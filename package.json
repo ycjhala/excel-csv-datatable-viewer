@@ -1,0 +1,21 @@
+{
+  "name": "excel-csv-datatable-viewer",
+  "version": "1.0.0",
+  "description": "Advanced Excel/CSV viewer with server-side processing",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site ready for deployment'",
+    "deploy": "vercel --prod",
+    "start": "echo 'Static site - serve index.html'"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module"
+}
